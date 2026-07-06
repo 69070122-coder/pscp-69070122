@@ -15,14 +15,14 @@ If AI was used for this learning-log-required problem, also complete `ai_reflect
 OJ problem number/title:
 
 ```text
-2996
+3017
 
 ```
 
 OJ submission ID, if submitted:
 
 ```text
-542059
+543904
 
 ```
 
@@ -35,7 +35,7 @@ Pass
 Independent time spent on this problem:
 
 ```text
-5 min
+5-15 min
 
 ```
 
@@ -76,7 +76,7 @@ Also explain the input, output, and important constraints.
 If you do not fully understand the problem yet, write what you currently understand. Your understanding may be incomplete or incorrect, but you must make a genuine attempt.
 
 ```text
-the problem is for me to lowercase every letter in the input then print it backward
+this prolem is for me to calculaye the bai set with survice charge and vat
 
 ```
 
@@ -98,8 +98,10 @@ You may write pseudocode, a flowchart idea, or step-by-step thinking.
 
 ```text
 Step 1:get the input
-Step 2: .lower everything
-Step 3: print it backward from the last letter and go back by 1
+Step 2: culculate the survice charge
+Step 3: make sure that the survice charge is more or equal to 50 but less than a 1000
+step 4: calculate thy vat from the input and survice charge
+step 5: add everything up and print
 ```
 
 ---
@@ -119,7 +121,7 @@ Do not copy AI's explanation.
 Do not copy another person's explanation.
 
 ```text
-i choose to stick with my original plan and it is to get input .lower it and print the last letter and go back by one until i priunt every letter
+i choose to stick with my original plan and i forgot a bit of how to did i use the f string but everything turn out ok
 ```
 
 ---
@@ -139,25 +141,25 @@ If the input or output has many lines, write them inside the text blocks.
 Why I chose this case:
 
 ```text
-just a random 5 letter
+random value
 ```
 
 Input:
 
 ```text
-skibi
+676767
 ```
 
 Expected output:
 
 ```text
-ibiks
+725210.69
 ```
 
 Actual output:
 
 ```text
-ibiks
+725210.69
 ```
 
 Result:
@@ -171,25 +173,25 @@ Pass
 Why I chose this case:
 
 ```text
-random 5 letter word
+check if the if more than 1000 are working
 ```
 
 Input:
 
 ```text
-rolex
+1001000
 ```
 
 Expected output:
 
 ```text
-xelor
+11780.70
 ```
 
 Actual output:
 
 ```text
-xelor
+11780.70
 ```
 
 Result:
@@ -203,25 +205,25 @@ Pass
 Why I chose this case:
 
 ```text
-random 5 letter word
+check 0
 ```
 
 Input:
 
 ```text
-hides
+0
 ```
 
 Expected output:
 
 ```text
-sedih
+53.50
 ```
 
 Actual output:
 
 ```text
-sedih
+53.50
 ```
 
 Result:
