@@ -1,0 +1,8 @@
+"""หก เจ็ด"""
+import math 
+q1 = float(input())
+q2 = float(input())
+q3 = float(input())
+q4 = float(input())
+distance = math.sqrt((q1 - p1) **2 + (q2 - p2)**2)
+print(distance)
