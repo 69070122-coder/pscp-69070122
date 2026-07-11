@@ -314,7 +314,7 @@ Write `Yes` for each statement.
 | I wrote this submission in my own words. |y|
 | I understand my final code. |y|
 | I recorded the real OJ status. |y|
-| I did not copy AI-generated text directly into this file. |n|
+| I did not copy AI-generated text directly into this file. |y|
 | I did not copy code from another person. |y|
 | If I received human help, I disclosed it in this file. |y|
 | I submitted the final code to the OJ by myself. |y|

@@ -15,15 +15,13 @@ If AI was used for this learning-log-required problem, also complete `ai_reflect
 OJ problem number/title:
 
 ```text
-2996
-
+3025
 ```
 
 OJ submission ID, if submitted:
 
 ```text
-542059
-
+549843
 ```
 
 OJ status:
@@ -35,8 +33,7 @@ Pass
 Independent time spent on this problem:
 
 ```text
-5 min
-
+20 min
 ```
 
 Choose one:
@@ -76,8 +73,7 @@ Also explain the input, output, and important constraints.
 If you do not fully understand the problem yet, write what you currently understand. Your understanding may be incomplete or incorrect, but you must make a genuine attempt.
 
 ```text
-the problem is for me to lowercase every letter in the input then print it backward
-
+the problem is to get input from uuser if to tell what season it is for example if the input was 2 it a winter season but if it was day 21 or more in the month that can devide by 3 such as 3 6 9 12 i have to make the output became the next season
 ```
 
 ---
@@ -97,9 +93,14 @@ This can be rough. It may be incomplete or different from your final solution.
 You may write pseudocode, a flowchart idea, or step-by-step thinking.
 
 ```text
-Step 1:get the input
-Step 2: .lower everything
-Step 3: print it backward from the last letter and go back by 1
+Step 1:get month input
+Step 2:get day input
+Step 3:check if it was spring
+step 4:check if it was summer
+step 5:check if it was fall
+step 6:check if it was winter
+step 7:orintout the output
+step 8; ifnot all the above just dont do anything
 ```
 
 ---
@@ -119,7 +120,7 @@ Do not copy AI's explanation.
 Do not copy another person's explanation.
 
 ```text
-i choose to stick with my original plan and it is to get input .lower it and print the last letter and go back by one until i priunt every letter
+i star by checking the tail end of the month and the month athat user input and if the condition not met i check if the month input is in another free month such as month 1 and 2  then i check the fist end of the next month 
 ```
 
 ---
@@ -139,25 +140,26 @@ If the input or output has many lines, write them inside the text blocks.
 Why I chose this case:
 
 ```text
-just a random 5 letter
+random month and date i spun from random .org
 ```
 
 Input:
 
 ```text
-skibi
+3
+20
 ```
 
 Expected output:
 
 ```text
-ibiks
+winter
 ```
 
 Actual output:
 
 ```text
-ibiks
+winter
 ```
 
 Result:
@@ -171,25 +173,26 @@ Pass
 Why I chose this case:
 
 ```text
-random 5 letter word
+random month and date i spun from random .org
 ```
 
 Input:
 
 ```text
-rolex
+4
+15
 ```
 
 Expected output:
 
 ```text
-xelor
+spring
 ```
 
 Actual output:
 
 ```text
-xelor
+spring
 ```
 
 Result:
@@ -203,31 +206,32 @@ Pass
 Why I chose this case:
 
 ```text
-random 5 letter word
+random month and date i spun from random .org
 ```
 
 Input:
 
 ```text
-hides
+9
+11
 ```
 
 Expected output:
 
 ```text
-sedih
+summer
 ```
 
 Actual output:
 
 ```text
-sedih
+summer
 ```
 
 Result:
 
 ```text
-Pass
+Pass 
 ```
 
 ---
@@ -313,6 +317,6 @@ Write `Yes` for each statement.
 | I understand my final code. |y|
 | I recorded the real OJ status. |y|
 | I did not copy AI-generated text directly into this file. |y|
-| I did not copy code from another person. |y|
-| If I received human help, I disclosed it in this file. |y|
-| I submitted the final code to the OJ by myself. |y|
+| I did not copy code from another person. | y|
+| If I received human help, I disclosed it in this file. | y|
+| I submitted the final code to the OJ by myself. | y|
