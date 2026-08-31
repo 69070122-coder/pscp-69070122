@@ -4,7 +4,7 @@ N, K, T = map(int, input().split())
 current = 1
 count = 1
 
-while True:
+while current != T:
     current = (current - 1 + K) % N + 1
 
     if current == T:
