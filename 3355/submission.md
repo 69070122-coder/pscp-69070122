@@ -21,7 +21,7 @@ OJ3355 - [LEARNING LOGS] Shorten
 OJ submission ID ถ้ามีการส่งแล้ว:
 
 ```text
-659935
+669431
 ```
 
 สถานะ OJ:
