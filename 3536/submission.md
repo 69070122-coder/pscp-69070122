@@ -21,7 +21,7 @@ OJ3536 - [LEARNING LOGS] isPrime_large
 OJ submission ID ถ้ามีการส่งแล้ว:
 
 ```text
-
+691305
 ```
 
 สถานะ OJ:
